@@ -62,3 +62,31 @@
 .ex-9-img {
     transition: 2s;
 }
+/* esercizio 10 */
+.ex-10-icon:hover {
+    animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* esercizio 11 da controllare */
+.ex-11-icon:hover {
+    animation: rotation 3s cubic-bezier(0.23, 1, 0.320, 1) infinite;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+/* esercizio 12 */
