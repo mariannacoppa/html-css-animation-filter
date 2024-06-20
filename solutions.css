@@ -54,6 +54,11 @@
     border-radius: 20px;
 }
 /* esercizio 9 */
+.ex-9-img:hover {
+    filter: brightness(80%);
+    border-radius: 20px;
+    width: 350px;
+}
 .ex-9-img {
-    
+    transition: 2s;
 }
