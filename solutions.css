@@ -35,3 +35,25 @@
     width: 40px;
     height: 40px;
 }
+/* esercizio 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+/* esecizio 7 */
+.ex-7-img {
+    transition: 5s linear;
+}
+.ex-7-img:hover {
+    filter: blur(100px);
+    box-shadow: 10px 10px 20px 15px blue;
+}
+/* esercizio 8 */
+.ex-8-img:hover {
+    filter: hue-rotate(90deg);
+    box-shadow: 10px 10px violet;
+    border-radius: 20px;
+}
+/* esercizio 9 */
+.ex-9-img {
+    
+}
